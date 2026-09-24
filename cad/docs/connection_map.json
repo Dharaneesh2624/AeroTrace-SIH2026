@@ -1,0 +1,304 @@
+[
+  {
+    "id": "BPS1",
+    "object": "Sensor_BPS1",
+    "network": "A",
+    "route": "Harness_Branch_BPS1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "IAT1",
+    "object": "Sensor_IAT1",
+    "network": "A",
+    "route": "Harness_Branch_IAT1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CRS1",
+    "object": "Sensor_CRS1",
+    "network": "A",
+    "route": "Harness_Branch_CRS1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CAS1",
+    "object": "Sensor_CAS1",
+    "network": "A",
+    "route": "Harness_Branch_CAS1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "BPS2",
+    "object": "Sensor_BPS2",
+    "network": "B",
+    "route": "Harness_Branch_BPS2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "IAT2",
+    "object": "Sensor_IAT2",
+    "network": "B",
+    "route": "Harness_Branch_IAT2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CRS2",
+    "object": "Sensor_CRS2",
+    "network": "B",
+    "route": "Harness_Branch_CRS2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CAS2",
+    "object": "Sensor_CAS2",
+    "network": "B",
+    "route": "Harness_Branch_CAS2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "RPS",
+    "object": "Sensor_RPS",
+    "network": "Shared",
+    "route": "Harness_Branch_RPS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "FPS",
+    "object": "Sensor_FPS",
+    "network": "Shared",
+    "route": "Harness_Branch_FPS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "FTS",
+    "object": "Sensor_FTS",
+    "network": "Shared",
+    "route": "Harness_Branch_FTS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CTS",
+    "object": "Sensor_CTS",
+    "network": "Shared",
+    "route": "Harness_Branch_CTS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "OPS",
+    "object": "Sensor_OPS",
+    "network": "Shared",
+    "route": "Harness_Branch_OPS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "MOK",
+    "object": "Sensor_MOK",
+    "network": "Shared",
+    "route": "Harness_Branch_MOK",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "GBTS",
+    "object": "Sensor_GBTS",
+    "network": "Shared",
+    "route": "Harness_Branch_GBTS",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "EGT_C1",
+    "object": "Sensor_EGT_C1",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_EGT_C1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CHT_C1",
+    "object": "Sensor_CHT_C1",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_CHT_C1",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "EGT_C2",
+    "object": "Sensor_EGT_C2",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_EGT_C2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CHT_C2",
+    "object": "Sensor_CHT_C2",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_CHT_C2",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "EGT_C3",
+    "object": "Sensor_EGT_C3",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_EGT_C3",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CHT_C3",
+    "object": "Sensor_CHT_C3",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_CHT_C3",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "EGT_C4",
+    "object": "Sensor_EGT_C4",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_EGT_C4",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CHT_C4",
+    "object": "Sensor_CHT_C4",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_CHT_C4",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "VIB_Block",
+    "object": "Sensor_VIB_Block",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_VIB_Block",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "VIB_Gearbox",
+    "object": "Sensor_VIB_Gearbox",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_VIB_Gearbox",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "FuelFlow",
+    "object": "Sensor_FuelFlow",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_FuelFlow",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "Alternator_Current",
+    "object": "Sensor_Alternator_Current",
+    "network": "SIH_DAQ",
+    "route": "Harness_Branch_Alternator_Current",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "CTS_GPC",
+    "object": "Sensor_CTS_GPC",
+    "network": "GPC",
+    "route": "Harness_Branch_CTS_GPC",
+    "pinout": "UNSPECIFIED",
+    "status": "Unvalidated routing concept"
+  },
+  {
+    "id": "GPC",
+    "network": "Shared_actuator",
+    "route": "Harness_Actuator_GPC",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "BPA",
+    "network": "Shared_actuator",
+    "route": "Harness_Actuator_BPA",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "FMU",
+    "network": "Shared_actuator",
+    "route": "Harness_Actuator_FMU",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "PCV",
+    "network": "Shared_actuator",
+    "route": "Harness_Actuator_PCV",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "GOV",
+    "network": "Shared_actuator",
+    "route": "Harness_Actuator_GOV",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "INJ1",
+    "network": "Shared_actuator",
+    "route": "Harness_INJ_1",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "GP1",
+    "network": "GPC",
+    "route": "Harness_GP_1",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "INJ2",
+    "network": "Shared_actuator",
+    "route": "Harness_INJ_2",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "GP2",
+    "network": "GPC",
+    "route": "Harness_GP_2",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "INJ3",
+    "network": "Shared_actuator",
+    "route": "Harness_INJ_3",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "GP3",
+    "network": "GPC",
+    "route": "Harness_GP_3",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "INJ4",
+    "network": "Shared_actuator",
+    "route": "Harness_INJ_4",
+    "pinout": "UNSPECIFIED"
+  },
+  {
+    "id": "GP4",
+    "network": "GPC",
+    "route": "Harness_GP_4",
+    "pinout": "UNSPECIFIED"
+  }
+]

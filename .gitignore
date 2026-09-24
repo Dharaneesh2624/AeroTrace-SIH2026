@@ -1,0 +1,36 @@
+# Dependencies and local environments
+**/node_modules/
+**/.venv*/
+**/__pycache__/
+**/.pytest_cache/
+**/*.egg-info/
+# Credentials, private data and machine-specific hosting state
+**/.env*
+**/*.pem
+**/*.key
+**/*.pfx
+**/*.sqlite*
+**/*.db
+**/*.log
+**/preview-data/
+**/preview-assets/
+backend/data/
+.openai/
+**/.openai/
+**/.sites-runtime/
+# Rebuildable output; compressed CAD and the reference JSON model ARE tracked
+**/dist/
+**/backend-bundle/
+**/backend-build/
+**/*.spec
+**/*.pyc
+**/*.exe
+**/*.dll
+**/*.tar
+**/*.zip
+output/
+tmp/
+desktop/public/engine.glb
+cad/models/*.step
+.DS_Store
+Thumbs.db

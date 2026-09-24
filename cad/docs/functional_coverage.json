@@ -1,0 +1,67 @@
+[
+  {
+    "system": "Block/head/sump",
+    "implemented": "Bored B-rep solids with removable housings",
+    "limitation": "Casting contours, jackets and port geometry approximate"
+  },
+  {
+    "system": "Crank/rods/pistons/rings",
+    "implemented": "Analytic linked mechanism, 83 mm bore / 92 mm stroke",
+    "limitation": "Rod length, journals, tolerances and bowl shape assumed"
+  },
+  {
+    "system": "Reduction gearbox/flange",
+    "implemented": "Three rotating gears; 1.69 ratio; source flange holes",
+    "limitation": "Spur demo replaces OEM helical geometry; no bearing loads"
+  },
+  {
+    "system": "Cam/valve train",
+    "implemented": "Counter-rotating cams; 16 prescribed valves; moving retainers/followers/springs",
+    "limitation": "No conjugate cam contact or spring force solution"
+  },
+  {
+    "system": "Timing chain",
+    "implemented": "Sprockets, chain paths, guides, tensioner concept",
+    "limitation": "Chain static; assumed pitch and route"
+  },
+  {
+    "system": "Accessory drive",
+    "implemented": "Crank/alternator/pump pulleys and pump impeller animate",
+    "limitation": "Static schematic belt; assumed drive ratios; starter parked"
+  },
+  {
+    "system": "Air/exhaust/turbo",
+    "implemented": "Hollow manifolds, turbo envelopes, wastegate concept",
+    "limitation": "Turbo blade aerodynamics/rotor not modelled"
+  },
+  {
+    "system": "Fuel injection",
+    "implemented": "Pump, metering unit, rail, injectors, pipes, glow plugs",
+    "limitation": "No nozzle needle/injector internals or EECU injection solver"
+  },
+  {
+    "system": "Cooling/lubrication",
+    "implemented": "Pump/filter/cooler/thermostat and hollow route concepts",
+    "limitation": "Not continuous OEM internal galleries or a fluid simulation"
+  },
+  {
+    "system": "Installation",
+    "implemented": "Four documented mount datums and flange hole pattern",
+    "limitation": "Mount bracket/support designs conceptual; envelope not exact"
+  },
+  {
+    "system": "Electronics/sensors",
+    "implemented": "32 named signal bindings incl. CTS_GPC; family-specific shapes",
+    "limitation": "Exact supplier dimensions and threads unavailable; no live data"
+  },
+  {
+    "system": "EECU",
+    "implemented": "Shell, backplate, fins, vent, 3 connectors, ECU A/B conceptual boards",
+    "limitation": "No real PCB traces, firmware, connector pinout or controller simulation"
+  },
+  {
+    "system": "Harness/electrics",
+    "implemented": "GPC, BPA, external regulator; sensor and actuator branch registry; separate SIH loom",
+    "limitation": "Unvalidated routes; no conductor gauge, wire list or electrical safety qualification"
+  }
+]

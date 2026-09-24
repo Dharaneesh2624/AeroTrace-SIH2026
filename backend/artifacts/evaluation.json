@@ -1,0 +1,159 @@
+{
+  "held_out": {
+    "unmodelled_regime": 1028,
+    "rows": 14979,
+    "candidate_anomaly_rows": 115,
+    "persistent_anomaly_rows": 12,
+    "scored": 13951,
+    "coverage_fraction": 0.9313705854863475,
+    "unlabelled_candidate_fraction_of_scored": 0.0082431366927102
+  },
+  "sessions": [
+    {
+      "session": "DataLog_20240819_session11_20240818_174809",
+      "date": "2024-08-18",
+      "rows": 4496,
+      "persistent_events": 1,
+      "median_score_by_regime": {
+        "idle": 0.12260877275192822,
+        "loaded": 0.11000122899752746
+      }
+    },
+    {
+      "session": "DataLog_20240819_session07_20240818_174831",
+      "date": "2024-08-18",
+      "rows": 8593,
+      "persistent_events": 2,
+      "median_score_by_regime": {
+        "idle": 0.1217186926947546,
+        "loaded": 0.28080780435574776
+      }
+    },
+    {
+      "session": "DataLog_20240819_session12_20240819_185040",
+      "date": "2024-08-19",
+      "rows": 103,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": null,
+        "loaded": null
+      }
+    },
+    {
+      "session": "DataLog_20240819_session08_20240819_185103",
+      "date": "2024-08-19",
+      "rows": 103,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": null,
+        "loaded": null
+      }
+    },
+    {
+      "session": "DataLog_20240819_session13_20240819_185519",
+      "date": "2024-08-19",
+      "rows": 75,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": null,
+        "loaded": null
+      }
+    },
+    {
+      "session": "DataLog_20240819_session09_20240819_185542",
+      "date": "2024-08-19",
+      "rows": 75,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": null,
+        "loaded": null
+      }
+    },
+    {
+      "session": "DataLog_20240819_session14_20240819_185648",
+      "date": "2024-08-19",
+      "rows": 580,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": null,
+        "loaded": null
+      }
+    },
+    {
+      "session": "DataLog_20240819_session10_20240819_185711",
+      "date": "2024-08-19",
+      "rows": 954,
+      "persistent_events": 0,
+      "median_score_by_regime": {
+        "idle": 0.09014164227888122,
+        "loaded": 0.2994059948627996
+      }
+    }
+  ],
+  "inference_latency_ms": {
+    "median": 0.0638999999864609,
+    "p95": 0.09409999984200113
+  },
+  "interpretation": "Unlabelled example sessions: anomaly fraction is NOT false-positive rate; no real precision/recall can be estimated",
+  "synthetic_tests": {
+    "oil_pressure_drop_70pct": {
+      "windows": 20,
+      "persistent_anomaly_detections": 20,
+      "data_quality_detections": 0,
+      "median_delay_s": 4.0,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    },
+    "boost_drop_45pct": {
+      "windows": 20,
+      "persistent_anomaly_detections": 20,
+      "data_quality_detections": 0,
+      "median_delay_s": 4.0,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    },
+    "rail_drop_50pct": {
+      "windows": 20,
+      "persistent_anomaly_detections": 20,
+      "data_quality_detections": 0,
+      "median_delay_s": 4.0,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    },
+    "bus_voltage_drop_8V": {
+      "windows": 20,
+      "persistent_anomaly_detections": 20,
+      "data_quality_detections": 0,
+      "median_delay_s": 4.0,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    },
+    "coolant_ramp_2C_per_s": {
+      "windows": 20,
+      "persistent_anomaly_detections": 11,
+      "data_quality_detections": 0,
+      "median_delay_s": 4,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    },
+    "oil_sensor_dropout": {
+      "windows": 20,
+      "persistent_anomaly_detections": 0,
+      "data_quality_detections": 20,
+      "median_delay_s": null,
+      "nature": "synthetic perturbation; not proof of real fault sensitivity"
+    }
+  },
+  "trends": {
+    "regimes": {
+      "idle": {
+        "status": "insufficient_history",
+        "distinct_days": 2,
+        "slope_per_day": null
+      },
+      "loaded": {
+        "status": "insufficient_history",
+        "distinct_days": 2,
+        "slope_per_day": null
+      }
+    },
+    "rul_hours": null,
+    "failure_probability": null,
+    "reason": "Trend is not a validated degradation or survival model"
+  }
+}

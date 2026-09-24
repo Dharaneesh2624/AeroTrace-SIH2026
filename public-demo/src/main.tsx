@@ -1,0 +1,8 @@
+import React from 'react';
+import './public-api';
+import {createRoot} from 'react-dom/client';
+import App from './App';
+import './style.css';
+import './faults.css';
+import './observatory.css';
+createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

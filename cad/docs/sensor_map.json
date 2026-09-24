@@ -1,0 +1,734 @@
+[
+  {
+    "id": "BPS1",
+    "object": "Sensor_BPS1",
+    "signal": "boost_pressure",
+    "unit": "hPa",
+    "category": "OEM",
+    "position_mm": [
+      290,
+      -277.48818521268174,
+      -80.71945116963421
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 800,
+    "host": "Intake_Plenum",
+    "family": "pressure_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "A"
+  },
+  {
+    "id": "IAT1",
+    "object": "Sensor_IAT1",
+    "signal": "intake_air_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      312,
+      -277.48818521268174,
+      -80.71945116963421
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 807,
+    "host": "Intake_Plenum",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "A"
+  },
+  {
+    "id": "CRS1",
+    "object": "Sensor_CRS1",
+    "signal": "crankshaft_speed",
+    "unit": "rpm",
+    "category": "OEM",
+    "position_mm": [
+      641,
+      -12,
+      -173.95
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Crankcase_4x83mm_Bores",
+    "family": "speed_phase_pickup",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "A"
+  },
+  {
+    "id": "CAS1",
+    "object": "Sensor_CAS1",
+    "signal": "camshaft_phase",
+    "unit": "deg",
+    "category": "OEM",
+    "position_mm": [
+      620,
+      -220.3171294673369,
+      12.942015746930082
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "speed_phase_pickup",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "A"
+  },
+  {
+    "id": "BPS2",
+    "object": "Sensor_BPS2",
+    "signal": "boost_pressure",
+    "unit": "hPa",
+    "category": "OEM",
+    "position_mm": [
+      500,
+      -277.48818521268174,
+      -80.71945116963421
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 800,
+    "host": "Intake_Plenum",
+    "family": "pressure_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "B"
+  },
+  {
+    "id": "IAT2",
+    "object": "Sensor_IAT2",
+    "signal": "intake_air_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      522,
+      -277.48818521268174,
+      -80.71945116963421
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 807,
+    "host": "Intake_Plenum",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "B"
+  },
+  {
+    "id": "CRS2",
+    "object": "Sensor_CRS2",
+    "signal": "crankshaft_speed",
+    "unit": "rpm",
+    "category": "OEM",
+    "position_mm": [
+      641,
+      12,
+      -173.95
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Crankcase_4x83mm_Bores",
+    "family": "speed_phase_pickup",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "B"
+  },
+  {
+    "id": "CAS2",
+    "object": "Sensor_CAS2",
+    "signal": "camshaft_phase",
+    "unit": "deg",
+    "category": "OEM",
+    "position_mm": [
+      620,
+      -174.3544628801982,
+      51.50927232812242
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "speed_phase_pickup",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "B"
+  },
+  {
+    "id": "RPS",
+    "object": "Sensor_RPS",
+    "signal": "rail_pressure",
+    "unit": "bar",
+    "category": "OEM",
+    "position_mm": [
+      595,
+      -276.76716497046567,
+      8.65325232427557
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 804,
+    "host": "HighPressure_Common_Rail",
+    "family": "pressure_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "FPS",
+    "object": "Sensor_FPS",
+    "signal": "fuel_supply_pressure",
+    "unit": "hPa",
+    "category": "OEM",
+    "position_mm": [
+      670,
+      60,
+      -80
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 809,
+    "host": "HighPressure_Pump",
+    "family": "pressure_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "FTS",
+    "object": "Sensor_FTS",
+    "signal": "fuel_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      648,
+      63,
+      -80
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "HighPressure_Pump",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "CTS",
+    "object": "Sensor_CTS",
+    "signal": "coolant_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      530,
+      -89.07573833208325,
+      12.106999050470876
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 806,
+    "host": "Crankcase_4x83mm_Bores",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "OPS",
+    "object": "Sensor_OPS",
+    "signal": "engine_oil_pressure",
+    "unit": "hPa",
+    "category": "OEM",
+    "position_mm": [
+      490,
+      79,
+      -119
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 803,
+    "host": "Oil_Cooler",
+    "family": "pressure_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "MOK",
+    "object": "Sensor_MOK",
+    "signal": "oil_temperature_and_level",
+    "unit": "degC/mm",
+    "category": "OEM",
+    "position_mm": [
+      427,
+      136.83297284061632,
+      -229.11749020443415
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": "811/814",
+    "host": "Wet_Oil_Sump",
+    "family": "oil_combinant_envelope",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "GBTS",
+    "object": "Sensor_GBTS",
+    "signal": "gearbox_oil_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      137,
+      95,
+      -160
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 810,
+    "host": "Gearbox_Cast_Case",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "Shared"
+  },
+  {
+    "id": "EGT_C1",
+    "object": "Sensor_EGT_C1",
+    "signal": "exhaust_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      270,
+      -86.64636548514812,
+      88.55370040226609
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Exhaust_Runner_C1",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "CHT_C1",
+    "object": "Sensor_CHT_C1",
+    "signal": "head_metal_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      270,
+      -125.19510130796189,
+      53.59665581232815
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "EGT_C2",
+    "object": "Sensor_EGT_C2",
+    "signal": "exhaust_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      360,
+      -86.64636548514812,
+      88.55370040226609
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Exhaust_Runner_C2",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "CHT_C2",
+    "object": "Sensor_CHT_C2",
+    "signal": "head_metal_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      360,
+      -125.19510130796189,
+      53.59665581232815
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "EGT_C3",
+    "object": "Sensor_EGT_C3",
+    "signal": "exhaust_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      450,
+      -86.64636548514812,
+      88.55370040226609
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Exhaust_Runner_C3",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "CHT_C3",
+    "object": "Sensor_CHT_C3",
+    "signal": "head_metal_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      450,
+      -125.19510130796189,
+      53.59665581232815
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "EGT_C4",
+    "object": "Sensor_EGT_C4",
+    "signal": "exhaust_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      540,
+      -86.64636548514812,
+      88.55370040226609
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Exhaust_Runner_C4",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "CHT_C4",
+    "object": "Sensor_CHT_C4",
+    "signal": "head_metal_temperature",
+    "unit": "degC",
+    "category": "SIH",
+    "position_mm": [
+      540,
+      -125.19510130796189,
+      53.59665581232815
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Cylinder_Head_16Valve_Injector_Ports",
+    "family": "proposed_thermocouple",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "VIB_Block",
+    "object": "Sensor_VIB_Block",
+    "signal": "vibration_xyz",
+    "unit": "m/s2",
+    "category": "SIH",
+    "position_mm": [
+      398,
+      16.138662495503702,
+      -91.50250755240734
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Crankcase_4x83mm_Bores",
+    "family": "proposed_accelerometer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "VIB_Gearbox",
+    "object": "Sensor_VIB_Gearbox",
+    "signal": "vibration_xyz",
+    "unit": "m/s2",
+    "category": "SIH",
+    "position_mm": [
+      95,
+      105,
+      -112
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Gearbox_Cast_Case",
+    "family": "proposed_accelerometer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "FuelFlow",
+    "object": "Sensor_FuelFlow",
+    "signal": "fuel_flow",
+    "unit": "L/h",
+    "category": "SIH",
+    "position_mm": [
+      708,
+      65,
+      -68
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "fuel_supply_external",
+    "family": "proposed_flow_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "Alternator_Current",
+    "object": "Sensor_Alternator_Current",
+    "signal": "alternator_current",
+    "unit": "A",
+    "category": "SIH",
+    "position_mm": [
+      650,
+      179,
+      -186
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": null,
+    "host": "Alternator_Housing",
+    "family": "proposed_current_transducer",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "SIH_DAQ"
+  },
+  {
+    "id": "CTS_GPC",
+    "object": "Sensor_CTS_GPC",
+    "signal": "glow_control_coolant_temperature",
+    "unit": "degC",
+    "category": "OEM",
+    "position_mm": [
+      561,
+      -44,
+      -4
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM71-5/PDF109 B50/6 CTS_GPC; missing in R3, generic temperature probe shape",
+    "telemetry_channel": null,
+    "host": "Thermostat",
+    "family": "temperature_probe",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable",
+    "network": "GPC"
+  },
+  {
+    "id": "EECU_Baro",
+    "object": "EECU_Venting_Element",
+    "signal": "ambient_pressure",
+    "unit": "hPa",
+    "category": "OEM",
+    "position_mm": [
+      844.5,
+      139,
+      154
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "source": "Internal EECU signal represented on related housing/interface, NOT an additional external sensor",
+    "telemetry_channel": 801,
+    "host": "EECU_Main_Shell",
+    "family": "internal_signal_binding",
+    "geometry_status": "Signal attachment only; internal sensor/electrical layout not available"
+  },
+  {
+    "id": "EECU_BatteryVoltage",
+    "object": "EECU_G121_POWER_Receptacle",
+    "signal": "battery_voltage",
+    "unit": "V",
+    "category": "OEM",
+    "position_mm": [
+      826.7,
+      220.0,
+      -35.0
+    ],
+    "axis": [
+      1,
+      0,
+      0
+    ],
+    "source": "Internal EECU signal represented on related housing/interface, NOT an additional external sensor",
+    "telemetry_channel": 808,
+    "host": "EECU_Main_Shell",
+    "family": "internal_signal_binding",
+    "geometry_status": "Signal attachment only; internal sensor/electrical layout not available"
+  },
+  {
+    "id": "PLS1",
+    "object": "Sensor_PLS1",
+    "signal": "power_lever_position",
+    "unit": "percent",
+    "category": "OEM",
+    "position_mm": [
+      828,
+      373,
+      -65
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 805,
+    "host": "aircraft_power_lever",
+    "family": "rotary_hall_lever_sensor",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable"
+  },
+  {
+    "id": "PLS2",
+    "object": "Sensor_PLS2",
+    "signal": "power_lever_position",
+    "unit": "percent",
+    "category": "OEM",
+    "position_mm": [
+      828,
+      401,
+      -65
+    ],
+    "axis": [
+      0,
+      0,
+      1
+    ],
+    "source": "MM01-24/25 sensor inventory; proposed CAD location",
+    "telemetry_channel": 805,
+    "host": "aircraft_power_lever",
+    "family": "rotary_hall_lever_sensor",
+    "geometry_status": "Family-specific reconstructed envelope; exact OEM dimensions and threads unavailable"
+  }
+]

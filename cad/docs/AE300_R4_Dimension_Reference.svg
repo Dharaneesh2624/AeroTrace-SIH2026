@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1050" viewBox="0 0 1400 1050">
+<rect width="1400" height="1050" fill="#f6f8fa"/>
+<style>text{font-family:Arial,sans-serif;fill:#182b3a}.small{font-size:16px}.label{font-size:19px}.heading{font-size:23px;font-weight:bold}.line{stroke:#244756;stroke-width:2;fill:none}.dim{stroke:#328493;stroke-width:1.3;fill:none}.datum{stroke:#9aaeba;stroke-width:1;stroke-dasharray:6 5;fill:none}</style>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto-start-reverse"><path d="M0,0 L6,3 L0,6 Z" fill="#328493"/></marker></defs>
+<text x="45" y="55" class="heading">AE300 / E4 — R4 CONTROLLED DIMENSION REFERENCE</text>
+<text x="45" y="85" class="small">Millimetres | Schematic projections | Source dimensions only; outer contours and internal detail reconstructed</text>
+<path d="M40,107 L1360,107" class="line"/>
+<text x="50" y="150" class="heading">CYLINDER BANK / TOP PROJECTION</text>
+<circle cx="128" cy="276" r="62.25" class="line"/>
+<path d="M128,197 L128,355" class="datum"/>
+<path d="M58,276 L198,276" class="datum"/>
+<text x="118" y="285" class="label">1</text>
+<path d="M128,184 L263,184" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="175.5" y="175.0" class="small">90</text>
+<circle cx="263" cy="276" r="62.25" class="line"/>
+<path d="M263,197 L263,355" class="datum"/>
+<path d="M193,276 L333,276" class="datum"/>
+<text x="253" y="285" class="label">2</text>
+<path d="M263,184 L398,184" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="310.5" y="175.0" class="small">90</text>
+<circle cx="398" cy="276" r="62.25" class="line"/>
+<path d="M398,197 L398,355" class="datum"/>
+<path d="M328,276 L468,276" class="datum"/>
+<text x="388" y="285" class="label">3</text>
+<path d="M398,184 L533,184" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="445.5" y="175.0" class="small">90</text>
+<circle cx="533" cy="276" r="62.25" class="line"/>
+<path d="M533,197 L533,355" class="datum"/>
+<path d="M463,276 L603,276" class="datum"/>
+<text x="523" y="285" class="label">4</text>
+<path d="M65.75,380 L190.25,380" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="108.0" y="371.0" class="small">83 bore</text>
+<text x="55" y="417" class="small">Four bores at 90 pitch. Source: MM01-9 (PDF31).</text>
+<text x="55" y="444" class="small">Displacement from bore/stroke: 1991.104 cm3; OEM nominal 1991 cm3.</text>
+<text x="770" y="150" class="heading">PROPELLER FLANGE / FRONT</text>
+<circle cx="1010" cy="285" r="114.3" class="line"/>
+<circle cx="1010" cy="285" r="91.44" class="datum"/>
+<circle cx="1010" cy="285" r="48.6" class="datum"/>
+<circle cx="1101.44" cy="285.0" r="11.475" class="line"/>
+<circle cx="1055.72" cy="364.18936292204904" r="11.475" class="line"/>
+<circle cx="964.28" cy="364.1893629220491" r="11.475" class="line"/>
+<circle cx="918.56" cy="285.0" r="11.475" class="line"/>
+<circle cx="964.28" cy="205.81063707795096" r="11.475" class="line"/>
+<circle cx="1055.72" cy="205.81063707795096" r="11.475" class="line"/>
+<path d="M875,285 L1145,285" class="datum"/>
+<path d="M1010,150 L1010,420" class="datum"/>
+<text x="1180" y="230" class="small">OD 127</text>
+<text x="1180" y="262" class="small">PCD 101.6</text>
+<text x="1180" y="294" class="small">6 x dia12.75</text>
+<text x="780" y="420" class="small">Source: IM Fig15.2, PDF134. Other flange dimensions assumed.</text>
+<text x="780" y="446" class="small">Centre bore shown dashed: reconstructed, not dimensioned here.</text>
+<path d="M40,479 L1360,479" class="line"/>
+<text x="50" y="520" class="heading">MOUNT DATUM COORDINATES</text>
+<text x="50" y="547" class="small">Origin: propeller flange centre; +X aft, +Z up; Y per IM Table6.1.</text>
+<text x="70" y="585" class="small">Position</text>
+<text x="325" y="585" class="small">X</text>
+<text x="440" y="585" class="small">Y</text>
+<text x="555" y="585" class="small">Z</text>
+<text x="70" y="625" class="label">Front left</text>
+<text x="325" y="625" class="label">165</text>
+<text x="440" y="625" class="label">-208</text>
+<text x="555" y="625" class="label">-173</text>
+<text x="70" y="661" class="label">Front right</text>
+<text x="325" y="661" class="label">166</text>
+<text x="440" y="661" class="label">82</text>
+<text x="555" y="661" class="label">-193</text>
+<text x="70" y="697" class="label">Rear left</text>
+<text x="325" y="697" class="label">677</text>
+<text x="440" y="697" class="label">-146</text>
+<text x="555" y="697" class="label">-298</text>
+<text x="70" y="733" class="label">Rear right</text>
+<text x="325" y="733" class="label">657</text>
+<text x="440" y="733" class="label">208</text>
+<text x="555" y="733" class="label">-129</text>
+<text x="55" y="797" class="small">Rear-left Z is -298 mm, verified directly against the drawing.</text>
+<text x="55" y="824" class="small">Pad/hole/support shapes remain reconstruction concepts.</text>
+<text x="770" y="520" class="heading">MECHANISM / VOLUME CONTROL</text>
+<text x="785" y="565" class="label">Bore: 83 mm     Stroke: 92 mm     Crank radius: 46 mm</text>
+<text x="785" y="602" class="label">Compression ratio: 17.5 : 1</text>
+<text x="785" y="639" class="label">Reduction: 1.69 : 1     Firing: 1 - 3 - 4 - 2</text>
+<text x="785" y="676" class="label">Rod length: 147 mm [ASSUMED]</text>
+<text x="785" y="713" class="label">Bank inclination: 40 deg [ASSUMED]</text>
+<text x="785" y="750" class="label">Gear teeth: 100 / 50 / 169 [ASSUMED]</text>
+<text x="785" y="797" class="small">Actual assembly extents: see validation.json.</text>
+<text x="785" y="824" class="small">Source envelope: L738 x W855 x H574; not achieved contour fidelity.</text>
+<path d="M40,865 L1360,865" class="line"/>
+<text x="50" y="903" class="heading">RELEASE: DIGITAL TWIN RECONSTRUCTION — NOT AN OEM MANUFACTURING DRAWING</text>
+<text x="50" y="936" class="small">Geometry, sensor placement and motion assumptions: DESIGN_NOTES.md / parameters.json / sensor_map.json</text>
+<text x="50" y="964" class="small">Build-time solid checks and analytic motion; STEP geometric reimport blocked. See release validation status.</text>
+<text x="50" y="997" class="small">References: E4.08.04 maintenance package and E4.02.01 installation Rev22; original manuals remain primary.</text>
+</svg>

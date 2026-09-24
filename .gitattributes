@@ -1,0 +1,10 @@
+* text=auto
+*.gz binary
+*.blend binary
+*.png binary
+*.ico binary
+*.svg text
+*.json text
+*.ts text
+*.tsx text
+*.py text

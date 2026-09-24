@@ -1,0 +1,40 @@
+{
+  "release": "R4 hardware-expanded functional reconstruction; NOT OEM production CAD",
+  "parts": 619,
+  "sensor_bindings": 32,
+  "glb_meshes": 619,
+  "glb_animations": 1,
+  "glb_animated_node_paths": 115,
+  "required_motion_channels_checked": 32,
+  "missing_required_motion_channels": [],
+  "step_roundtrip_pass": null,
+  "step_validation_status": "NOT RERUN: Windows Application Control blocked OCP import on 2026-09-19",
+  "step_structure_checks_pass": true,
+  "engine_extents_mm": [
+    723.0,
+    636.2355266288312,
+    536.6824351196675
+  ],
+  "reference_envelope_mm": [
+    738,
+    855,
+    574
+  ],
+  "blender_joint_error_mm": 2.6704219989368407e-05,
+  "reimported_glb_joint_error_mm": 3.6486667837875505e-05,
+  "selected_hardware_interface_checks_pass": true,
+  "bare_eecu_extents_mm": [
+    58.5,
+    247.0,
+    226.0
+  ],
+  "connection_registry_count": 41,
+  "sih_and_oem_networks_separate": true,
+  "scope_limits": [
+    "Not exact exterior geometry or manufacturing drawings",
+    "No exhaustive all-parts interference check",
+    "Static schematic chain and belt paths; prescribed valve motion, no cam contact solver",
+    "No validated combustion, thermal, fatigue, vibration or fluid simulation",
+    "No live telemetry connection; additional SIH signals need sensors/data"
+  ]
+}

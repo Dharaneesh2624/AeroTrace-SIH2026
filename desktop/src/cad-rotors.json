@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Gear_Input_100T",
+    "ratio": 1,
+    "phase": 90
+  },
+  {
+    "name": "Shaft_Input",
+    "ratio": 1,
+    "phase": 0
+  },
+  {
+    "name": "Gear_Idler_50T",
+    "ratio": -2,
+    "phase": -86.4
+  },
+  {
+    "name": "Shaft_Idler",
+    "ratio": -2,
+    "phase": 0
+  },
+  {
+    "name": "Gear_Output_169T",
+    "ratio": 0.591715976331361,
+    "phase": -90
+  },
+  {
+    "name": "Shaft_Output",
+    "ratio": 0.591715976331361,
+    "phase": 0
+  },
+  {
+    "name": "Propeller_Flange_6x12_75_PCD101_6",
+    "ratio": 0.591715976331361,
+    "phase": 0
+  },
+  {
+    "name": "Alternator_Pulley",
+    "ratio": 1.7692307692307692,
+    "phase": 0
+  },
+  {
+    "name": "Alternator_Rotor_Shaft",
+    "ratio": 1.7692307692307692,
+    "phase": 0
+  },
+  {
+    "name": "Water_Pump_Pulley",
+    "ratio": 1.4375,
+    "phase": 0
+  },
+  {
+    "name": "Water_Pump_Rotor_Shaft",
+    "ratio": 1.4375,
+    "phase": 0
+  },
+  {
+    "name": "Crank_Accessory_Pulley",
+    "ratio": 1,
+    "phase": 0
+  },
+  {
+    "name": "Rear_Crank_Extension_Concept",
+    "ratio": 1,
+    "phase": 0
+  },
+  {
+    "name": "Water_Pump_Impeller_Concept",
+    "ratio": 1.4375,
+    "phase": 0
+  }
+]

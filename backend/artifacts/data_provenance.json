@@ -1,0 +1,98 @@
+{
+  "repository": "https://github.com/ingramleedy/AustroView",
+  "commit": "f9187ca3cd9094c5b547a8186559f5e099976c6d",
+  "kind": "public example, health labels and engine identity unverified",
+  "files": [
+    {
+      "file": "DataLog_20240819_session00_20240726_170640.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session00_20240726_170640.csv",
+      "sha256": "46336789aa3575a3d41798ed7ec1b8a30c3b3aa3500f370d04fefd0fb9b8d0d1",
+      "bytes": 148427
+    },
+    {
+      "file": "DataLog_20240819_session01_20240729_143241.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session01_20240729_143241.csv",
+      "sha256": "a957479fba5cd5e59f93f745a5bbe5fe87957da8c635e70fd8ce76c6112aa258",
+      "bytes": 542348
+    },
+    {
+      "file": "DataLog_20240819_session02_20240729_143220.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session02_20240729_143220.csv",
+      "sha256": "b377ff959bf1afecf2bf5d438525a1c9d1a0bbd99175a57b085d463092faf1ee",
+      "bytes": 495891
+    },
+    {
+      "file": "DataLog_20240819_session03_20240801_015300.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session03_20240801_015300.csv",
+      "sha256": "31129f87e5a4a89f9c883381ab60abec71985cabe86343fb5e22c0a6b668082e",
+      "bytes": 747730
+    },
+    {
+      "file": "DataLog_20240819_session04_20240801_015236.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session04_20240801_015236.csv",
+      "sha256": "27895cbdaaa102bd55bcbb5f9e4114a7cfc5e2e0251e1c6b191399a3de127b39",
+      "bytes": 51400
+    },
+    {
+      "file": "DataLog_20240819_session05_20240817_141301.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session05_20240817_141301.csv",
+      "sha256": "e49c4225ba78071990e738f898a9dc351a0eb24c2ac1de2ec105e050a6127807",
+      "bytes": 744695
+    },
+    {
+      "file": "DataLog_20240819_session06_20240817_141237.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session06_20240817_141237.csv",
+      "sha256": "9ac7e16caa01b8df8759b338d8c5e5ab0a430dc38b092f44986fd82471a966d6",
+      "bytes": 178454
+    },
+    {
+      "file": "DataLog_20240819_session07_20240818_174831.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session07_20240818_174831.csv",
+      "sha256": "9fd35f1c304e42473ae5e3f562c1d138b413af0bc39e27d1a7f6978c498a5c4a",
+      "bytes": 835208
+    },
+    {
+      "file": "DataLog_20240819_session08_20240819_185103.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session08_20240819_185103.csv",
+      "sha256": "910cc0992b60b02f37040a8213456086ac8a73359e081f27011a05c5492e1cff",
+      "bytes": 8983
+    },
+    {
+      "file": "DataLog_20240819_session09_20240819_185542.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session09_20240819_185542.csv",
+      "sha256": "04dd55e3d3d5a612855ea03b1ff958d1b552c05f7a4e6164620db9eb65670c06",
+      "bytes": 6640
+    },
+    {
+      "file": "DataLog_20240819_session10_20240819_185711.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session10_20240819_185711.csv",
+      "sha256": "a244129ef1c58aed4d73dcf5aff7e1fd3c02621a5b9623b7089e51f3a9df51dc",
+      "bytes": 92845
+    },
+    {
+      "file": "DataLog_20240819_session11_20240818_174809.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session11_20240818_174809.csv",
+      "sha256": "4ba63c84a03c50e47dcd4e38a666233294956387295d26631925d0824682e99e",
+      "bytes": 440206
+    },
+    {
+      "file": "DataLog_20240819_session12_20240819_185040.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session12_20240819_185040.csv",
+      "sha256": "fb301861a0055917b7fb8c7c6b1c60e56cdcc20c7d546e33e3bd9690a4b67d07",
+      "bytes": 9055
+    },
+    {
+      "file": "DataLog_20240819_session13_20240819_185519.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session13_20240819_185519.csv",
+      "sha256": "9216be57ea3124559051c3182390819365954d772ffe0b0b4a64466b52e49180",
+      "bytes": 6702
+    },
+    {
+      "file": "DataLog_20240819_session14_20240819_185648.csv",
+      "url": "https://raw.githubusercontent.com/ingramleedy/AustroView/f9187ca3cd9094c5b547a8186559f5e099976c6d/examples/output/DataLog_20240819_session14_20240819_185648.csv",
+      "sha256": "a07c0f558e1b7f1fe0b35e2eb06cac1dc3cb09148f7cbcb8bac6211295a5678e",
+      "bytes": 56584
+    }
+  ],
+  "license_note": "README states MIT; no standalone LICENSE found. Raw data excluded from release ZIP."
+}

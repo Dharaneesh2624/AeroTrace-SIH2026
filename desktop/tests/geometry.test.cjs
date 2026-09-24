@@ -1,0 +1,20 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+test('baked CAD contains working piston and crank animation at backend-driven poses',async()=>{
+ const THREE=await import('three');
+ const {GLTFLoader}=await import('three/examples/jsm/loaders/GLTFLoader.js');
+ const bytes=fs.readFileSync(path.join(__dirname,'../public/engine.glb'));
+ const gltf=await new GLTFLoader().parseAsync(bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),'');
+ assert.equal(gltf.animations.length,1);
+ assert.ok(gltf.animations[0].tracks.length>100);
+ const mixer=new THREE.AnimationMixer(gltf.scene);
+ mixer.clipAction(gltf.animations[0]).play();
+ const piston=gltf.scene.getObjectByName('Piston_C1');
+ assert.ok(piston);
+ mixer.setTime(1/30);const initial=piston.position.clone();
+ mixer.setTime(1/30+2);assert.ok(piston.position.distanceTo(initial)>.02,'piston must move through its stroke');
+ const pause=piston.position.clone();mixer.update(0);assert.ok(piston.position.distanceTo(pause)<1e-10);
+ mixer.setTime(1/30);assert.ok(piston.position.distanceTo(initial)<1e-7,'seek restores pose');
+});

@@ -1,0 +1,13 @@
+{
+  "structure_checks_pass": true,
+  "byte_length": 55679508,
+  "sha256": "c5cd42d08e3bf319af4aae5da11302b3f07e3ddfded8f11b8d5328aac4dc140b",
+  "solid_records": 619,
+  "manifold_solid_records": 612,
+  "breps_with_voids": 7,
+  "unique_entity_ids": 862976,
+  "millimetre_units": true,
+  "build_time_geometry_checks": "619 valid positive-volume single solids recorded by generator before STEP export",
+  "geometric_step_roundtrip": "NOT RERUN: Windows Application Control blocked OCP import on 2026-09-19",
+  "scope": "STEP header/footer, unique entity IDs, solid record count and units only. Does not prove imported B-rep validity or collisions."
+}

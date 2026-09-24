@@ -1,0 +1,8 @@
+// Local-only static server. No uploads, private API proxy or backend exposure.
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path');
+const directory=path.resolve(__dirname,'../public-demo/dist');
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json','.css':'text/css','.png':'image/png','.svg':'image/svg+xml','.gz':'application/octet-stream'};
+if(!fs.existsSync(path.join(directory,'index.html'))){console.error('Build public-demo first: pnpm run build');process.exit(1);}
+const server=http.createServer((request,response)=>{try{if(!['GET','HEAD'].includes(request.method)){response.writeHead(405);response.end();return;}const name=decodeURIComponent(new URL(request.url,'http://localhost').pathname);const file=path.resolve(directory,'.'+(name==='/'?'/index.html':name));const relative=path.relative(directory,file);if(relative.startsWith('..')||path.isAbsolute(relative)){response.writeHead(403);response.end();return;}if(!fs.existsSync(file)||!fs.statSync(file).isFile()){response.writeHead(404);response.end('Not found');return;}response.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream','Content-Length':fs.statSync(file).size,'X-Content-Type-Options':'nosniff'});if(request.method==='HEAD')response.end();else fs.createReadStream(file).pipe(response);}catch{response.writeHead(400);response.end('Invalid request');}});
+server.on('error',error=>{console.error(error.message);process.exitCode=1;});
+server.listen(8011,'127.0.0.1',()=>console.log('Public-demo preview: http://127.0.0.1:8011/ (Ctrl+C to stop)'));
